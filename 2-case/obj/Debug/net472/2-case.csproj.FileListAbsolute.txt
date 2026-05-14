@@ -27,3 +27,4 @@ e:\ucheba\2-case\2-case\obj\Debug\net472\korzina_okno.g.cs
 e:\ucheba\2-case\2-case\obj\Debug\net472\registr_okno.g.cs
 e:\ucheba\2-case\2-case\obj\Debug\net472\smena_parol_okno.g.cs
 e:\ucheba\2-case\2-case\obj\Debug\net472\vhod_login_okno.g.cs
+e:\ucheba\2-case\2-case\obj\Debug\net472\2-case.sourcelink.json

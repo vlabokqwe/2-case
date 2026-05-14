@@ -9,7 +9,4 @@
     <Nullable>disable</Nullable>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System.Runtime.Serialization" />
-  </ItemGroup>
 </Project>
