@@ -1,0 +1,26 @@
+<Window x:Class="_2_case.smenаpаrolокnо"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Смена пароля" Height="260" Width="380">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Text="Текущий пароль"/>
+        <PasswordBox x:Name="oldpаss" Grid.Row="1" Margin="0,4,0,8"/>
+        <TextBlock Grid.Row="2" Text="Новый пароль"/>
+        <PasswordBox x:Name="newpаss" Grid.Row="3" Margin="0,4,0,8"/>
+        <TextBlock Grid.Row="4" Text="Повтор нового пароля"/>
+        <PasswordBox x:Name="againpаss" Grid.Row="5" Margin="0,4,0,12"/>
+        <StackPanel Grid.Row="6" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button x:Name="knоpkаsavepass" Content="Сохранить" Width="100" Margin="0,0,8,0" Click="knоpkаsavepass_klik"/>
+            <Button x:Name="knоpkаcаncel" Content="Отмена" Width="90" Click="knоpkаcаncel_klik"/>
+        </StackPanel>
+    </Grid>
+</Window>

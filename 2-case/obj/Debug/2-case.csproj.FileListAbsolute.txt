@@ -1,0 +1,4 @@
+e:\ucheba\2-case\2-case\obj\Debug\2-case.csproj.AssemblyReference.cache
+e:\ucheba\2-case\2-case\obj\Debug\_2_case.Properties.Resources.resources
+e:\ucheba\2-case\2-case\obj\Debug\2-case.csproj.GenerateResource.cache
+e:\ucheba\2-case\2-case\obj\Debug\2-case.csproj.CoreCompileInputs.cache

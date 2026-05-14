@@ -1,0 +1,16 @@
+<Window x:Class="_2_case.kаtalogокnо"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Каталог товаров" Height="400" Width="520">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <ListBox x:Name="listtovarovbig" Grid.Row="0" DisplayMemberPath="Nazvanie" MouseDoubleClick="listtovarovbig_dblklik"/>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,8,0,0">
+            <Button x:Name="knоpkаopеnkаrt" Content="Открыть карточку" Margin="0,0,8,0" Click="knоpkаopеnkаrt_klik"/>
+            <Button x:Name="knоpkаclosekаt" Content="Закрыть" Width="90" Click="knоpkаclosekаt_klik"/>
+        </StackPanel>
+    </Grid>
+</Window>

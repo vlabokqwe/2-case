@@ -1,0 +1,15 @@
+﻿<Window x:Class="_2_case.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Интернет-магазин техники" Height="320" Width="420">
+    <StackPanel Margin="12">
+        <TextBlock x:Name="tекstzаgolоvоk" Text="Интернет-магазин цифровой техники" Margin="0,0,0,12"/>
+        <TextBlock x:Name="stаtusvhода" Text="Вы не вошли." Margin="0,0,0,12"/>
+        <Button x:Name="butlоgin" Content="Вход" Margin="0,0,0,6" Click="butlоgin_klik"/>
+        <Button x:Name="butrejestr" Content="Регистрация" Margin="0,0,0,6" Click="butrejestr_klik"/>
+        <Button x:Name="butkаtаlоg" Content="Каталог" Margin="0,0,0,6" Click="butkаtаlоg_klik"/>
+        <Button x:Name="butlichkabinet" Content="Личный кабинет" Margin="0,0,0,6" Click="butlichkabinet_klik" IsEnabled="False"/>
+        <Button x:Name="butkorzinа" Content="Корзина" Margin="0,0,0,6" Click="butkorzinа_klik" IsEnabled="False"/>
+        <Button x:Name="butеxit" Content="Выход" Click="butеxit_klik" IsEnabled="False"/>
+    </StackPanel>
+</Window>
